@@ -22,7 +22,7 @@ En este mismo repocitorio se encuentra el archivo *Prueba.cpp* en donde se puede
 
 Para el uso de esta clase, basta con descargar el archivo *Arreglo.h* y colocarlo en la carpeta en donde se utilizará. Una vez hecho esto, con colocar *#include "Arreglo.h"* se podrá utilizar la clase.
 
-Por otra parte, es posible utilizar esta clase a modo de libreria, esto se logra encontrando la carpeta en donde se encuentran las librerías de nuestro compilador, y en esta carpeta, agregar el archivo *Arreglo.h*. Una vez realizado esto, será posible usar esta clase en cualquier programa sin la necesidad de incluir el archivo en cada carpeta. (se utiliza *#include <Arreglo.h:* al inicio de cada programa en donde se utiliza)
+Por otra parte, es posible utilizar esta clase a modo de libreria, esto se logra encontrando la carpeta en donde se encuentran las librerías de nuestro compilador, y en esta carpeta, agregar el archivo *Arreglo.h*. Una vez realizado esto, será posible usar esta clase en cualquier programa sin la necesidad de incluir el archivo en cada carpeta. (se utiliza *#include <Arreglo.h>* al inicio de cada programa en donde se utiliza)
 
 # Referencias:
 
