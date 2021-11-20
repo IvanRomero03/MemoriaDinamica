@@ -32,3 +32,9 @@ Exceptions - C++ Tutorials. (2021). Cplusplus.com. https://www.cplusplus.com/doc
 
 Templates - C++ Tutorials. (2021). Cplusplus.com. https://www.cplusplus.com/doc/oldtutorial/templates/
 
+# TODOs:
+
+- Es posible experimentar con operadores personalizados para la clase, esto se hace por medio de una sobrecarga de operadores, consultar más de esto en: https://www.cplusplus.com/doc/oldtutorial/classes2/
+- Agregar más constructores para diferentes escenarios, por ejemplo, comenzar un arreglo inicializandolo con el valor de otro arreglo previamente hecho.
+- Dependiendo del tipo de dato que se pueda introducir (se necesita hacer un análisis e investigación de como manejar esto), agregar métodos como sort o inclusive una busqueda binaria (con un arreglo ya ordenado).
+- Métodos para comparar dos Arreglos, si son iguales o no, encontrar diferencias, multiplicar matrices, etc.
