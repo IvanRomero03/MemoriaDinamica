@@ -1,6 +1,6 @@
 # MemoriaDinamica
 Clase personalizada para el manejo de arreglos dinámicos en c++
-Esta clase fue inicialmente usada para el manejo de integers, pero con el uso de la función template, que nos permite manejar un tipo de dato genérico, es posible utilizar esta clase con todos los tipos de datos. El manejo de dinámico de la memoria permite definir arreglos sin especificar desde un principio la cantidad de elementos que contendrá, y así mismo agilizar el manejo de la memoria dinámica básica.
+Esta clase fue inicialmente usada para el manejo de integers, pero con el uso de la función ***template***, que nos permite manejar un tipo de dato genérico, es posible utilizar esta clase con todos los tipos de datos. El manejo de dinámico de la memoria permite definir arreglos sin especificar desde un principio la cantidad de elementos que contendrá, y así mismo agilizar el manejo de la memoria dinámica básica.
 
 # Descripción de la clase:
 
