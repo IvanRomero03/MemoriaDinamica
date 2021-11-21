@@ -1,4 +1,5 @@
 //Iván Alberto Romero Wells A00833623
+#pragma once
 #include <bits/stdc++.h>
 
 using namespace std;
