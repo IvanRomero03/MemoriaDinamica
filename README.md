@@ -18,6 +18,15 @@ Esta clase fue inicialmente usada para el manejo de integers, pero con el uso de
 - - el método obtenerCapacidad da como retorno la capacidad del arreglo, es decir, el espacio reservado en la memoria.
 En este mismo repocitorio se encuentra el archivo *Prueba.cpp* en donde se puede visualizar ejemplos de uso de esta clase y los métodos.
 
+### Operadores
+
+- ***[indice]***
+- - se retornará el valor del elemento en índice, se usa de la siguiente manera: ***NombreArreglo[indice]*** esto SOLO se puede usar para retornar los valores en las posiciones indicadas NO SE PUEDE UTILIZAR para efectuar cambios en el elemento de dicho indice.
+- ***==***
+- - se retorna un valor boleano, en donde se evalua si los arreglos comparados son iguales o no, se utiliza de la siguiente manera: ***Arr1 == Arr2*** 
+- ***!=***
+- - se retornará un valor boleano contrario a lo que sucedería en ***==***
+
 # Instalación o uso
 
 Para el uso de esta clase, basta con descargar el archivo *Arreglo.h* y colocarlo en la carpeta en donde se utilizará. Una vez hecho esto, con colocar *#include "Arreglo.h"* se podrá utilizar la clase.
@@ -34,7 +43,7 @@ Templates - C++ Tutorials. (2021). Cplusplus.com. https://www.cplusplus.com/doc/
 
 # TODOs:
 
-- Es posible experimentar con operadores personalizados para la clase, esto se hace por medio de una sobrecarga de operadores, consultar más de esto en: https://www.cplusplus.com/doc/oldtutorial/classes2/
+- Es posible experimentar con operadores personalizados para la clase, esto se hace por medio de una sobrecarga de operadores, consultar más de esto en: https://www.cplusplus.com/doc/oldtutorial/classes2/ **ACTUALIZACION** YA SE UTILIZÓ esto para TRES OPERADORES básicos (y todavía falta refinar el operador[]) ES POSIBLE utilizar más operadores, como ***=*** , ***+*** , etc.
 - Agregar más constructores para diferentes escenarios, por ejemplo, comenzar un arreglo inicializandolo con el valor de otro arreglo previamente hecho.
 - Dependiendo del tipo de dato que se pueda introducir (se necesita hacer un análisis e investigación de como manejar esto), agregar métodos como sort o inclusive una busqueda binaria (con un arreglo ya ordenado).
 - Métodos para comparar dos Arreglos, si son iguales o no, encontrar diferencias, multiplicar matrices, etc.
