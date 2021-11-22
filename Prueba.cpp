@@ -38,4 +38,23 @@ int main()
         arreglo2.agregar(i);
         cout << i << ": " << arreglo2.obtenerTamano() << " " << arreglo2.obtenerCapacidad() << endl;
     }
+    //probar operador []
+    for (int i = 0; i < 10; i++)
+    {
+        cout << arreglo2[i] << " ";
+    }
+    cout << endl;
+    // probar operador ==
+    bool hola = arreglo != arreglo2;
+    cout << hola << endl;
+
+    Arreglo<int> arreglo3;
+    for (int i = 0; i < 10; i++)
+    {
+        arreglo3.agregar(i);
+    }
+    hola = arreglo2 == arreglo3;
+    cout << hola << endl;
+
+    return 0;
 }
