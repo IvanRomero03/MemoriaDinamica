@@ -71,4 +71,31 @@ public:
     {
         return capacidad;
     }
+    T &operator[](int posicion)
+    {
+        if (posicion < 0 || posicion >= tamano)
+        {
+            throw "Posicion invalida";
+        }
+        return arreglo[posicion];
+    }
+    bool operator==(Arreglo<T> &otroArreglo)
+    {
+        if (this->tamano != otroArreglo.obtenerTamano())
+        {
+            return false;
+        }
+        for (int i = 0; i < tamano; i++)
+        {
+            if (this->arreglo[i] != otroArreglo[i])
+            {
+                return false;
+            }
+        }
+        return true;
+    }
+    bool operator!=(Arreglo<T> &otroArreglo)
+    {
+        return !(*this == otroArreglo);
+    }
 };
